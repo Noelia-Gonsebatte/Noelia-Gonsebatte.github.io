@@ -1,0 +1,102 @@
+/* Selectores de clases */
+
+.titulo1 {
+    
+        font-size: 36px;
+        font-weight: bold;
+        color: #552121;
+        text-align: center;
+        background-color: #cabeab;
+    
+}
+
+.titulo2 {
+    
+        font-size: 36px;
+        font-weight: bold;
+        color: #552121;
+        text-align: center;
+        background-color: #ca9898;
+    
+}
+
+.titulo3 {
+    
+    font-size: 36px;
+    font-weight: bold;
+    color: #552121;
+    text-align: center;
+    background-color: #bad3e7;
+
+}
+
+
+
+/* Selectores de ID */
+
+#sobre-mi {
+    background-color: #e9dfdfec;
+    margin-left: 0%;
+}
+
+#experiencia {
+    background-color: #e9dfdfec;
+    margin-left: 0%;
+}
+
+#contacto {
+    background-color: #e9dfdfec;
+    margin-left: 0%;
+}
+
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes/fondo.jpg);
+}
+
+header {
+    background-color: #9b7235;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100px;
+    height: auto;
+    }
